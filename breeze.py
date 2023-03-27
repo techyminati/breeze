@@ -40,12 +40,6 @@ def get_sentiment(text: str, positive_words: List[str], negative_words: List[str
         return 'neutral'
 
 
-#positive_words = ['good', 'great', 'excellent']
-#negative_words = ['bad', 'poor', 'terrible']
-#positive_words = ["good", "great", "excellent", "wonderful", "happy", "love"]
-#negative_words = ["bad", "terrible", "poor", "awful", "unhappy", "hate"]
-#positive_words = ['good', 'great', 'excellent', 'amazing', 'wonderful', 'fantastic', 'awesome']
-#negative_words = ['bad', 'poor', 'terrible', 'awful', 'horrible', 'disappointing', 'mediocre']
 positive_words = ['good', 'great', 'excellent', 'amazing', 'wonderful', 'fantastic', 'awesome', 
                   'outstanding', 'superb', 'delightful', 'brilliant', 'terrific', 'splendid', 'perfect']
 negative_words = ['bad', 'poor', 'terrible', 'awful', 'horrible', 'disappointing', 'mediocre',
