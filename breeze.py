@@ -46,14 +46,9 @@ negative_words = ['bad', 'poor', 'terrible', 'awful', 'horrible', 'disappointing
                   'disastrous', 'dreadful', 'appalling', 'atrocious', 'inferior', 'unsatisfactory', 'subpar']
 
 
-text1 = "I had a bad experience with the product."
-text2 = "The product is great and I'm really satisfied with it."
-text3 = "This product is just okay, not bad but not great either."
+print("Hello I'm breeze, An simple AI based on lexicon-based approach,\n which relies on pre-defined lists of positive and negative words to determine the sentiment of the text.")
 
-sentiment1 = get_sentiment(text1, positive_words, negative_words)
-sentiment2 = get_sentiment(text2, positive_words, negative_words)
-sentiment3 = get_sentiment(text3, positive_words, negative_words)
+getinp=input("How are you feeling today? \n")
+sentiment = get_sentiment(getinp, positive_words, negative_words)
 
-print(f"Text1: {text1}\nSentiment: {sentiment1}\n")
-print(f"Text2: {text2}\nSentiment: {sentiment2}\n")
-print(f"Text3: {text3}\nSentiment: {sentiment3}\n")
+print(f"Parsed Input: {getinp}\nSentiment: {sentiment}\n")
