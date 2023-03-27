@@ -40,10 +40,13 @@ def get_sentiment(text: str, positive_words: List[str], negative_words: List[str
         return 'neutral'
 
 
-positive_words = ['good', 'great', 'excellent', 'amazing', 'wonderful', 'fantastic', 'awesome', 
-                  'outstanding', 'superb', 'delightful', 'brilliant', 'terrific', 'splendid', 'perfect']
-negative_words = ['bad', 'poor', 'terrible', 'awful', 'horrible', 'disappointing', 'mediocre',
-                  'disastrous', 'dreadful', 'appalling', 'atrocious', 'inferior', 'unsatisfactory', 'subpar']
+positive_words = ['good', 'great', 'excellent', 'amazing', 'wonderful', 'fantastic', 'awesome',
+                  'outstanding', 'superb', 'delightful', 'brilliant', 'terrific', 'splendid', 'perfect',
+                  'happy', 'joyful', 'ecstatic', 'pleased', 'satisfied', 'content', 'thrilled', 'grateful']
+
+negative_words = ['bad', 'poor', 'terrible', 'awful', 'horrible', 'disappointing', 'mediocre', 'disastrous',
+                  'dreadful', 'appalling', 'atrocious', 'inferior', 'unsatisfactory', 'subpar',
+                  'sad', 'unhappy', 'miserable', 'depressed', 'displeased', 'angry', 'frustrated', 'disgusted']
 
 
 print("Hello I'm breeze, An simple AI based on lexicon-based approach,\n which relies on pre-defined lists of positive and negative words to determine the sentiment of the text.")
